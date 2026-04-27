@@ -25,15 +25,17 @@
 </section>
 
 <section class="latest-posts">
-  <h2>Последние новости</h2>
-  <div class="posts-grid">
-    {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
-    <article class="post-card">
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <time>{{ .Date.Format "02.01.2006" }}</time>
-      <p>{{ .Summary }}</p>
-    </article>
-    {{ end }}
+  <div class="container">
+    <h2>Последние новости</h2>
+    <div class="posts-grid">
+      {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+      <article class="post-card">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <time>{{ .Date.Format "02.01.2006" }}</time>
+        <p>{{ .Summary }}</p>
+      </article>
+      {{ end }}
+    </div>
   </div>
 </section>
 
