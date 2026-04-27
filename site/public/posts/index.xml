@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on POLI-STUDIO</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on POLI-STUDIO</description>
+    <generator>Hugo</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Неделя 3: Монтаж и первые отзывы</title>
+      <link>http://localhost:1313/posts/post3/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post3/</guid>
+      <description>&lt;h2 id=&#34;черновой-монтаж-готов&#34;&gt;Черновой монтаж готов&lt;/h2&gt;&#xA;&lt;p&gt;Смонтировали первый ролик и показали его фокус-группе из десяти студентов. Результаты обнадёживают.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Что понравилось зрителям:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Живой голос за кадром вместо скучной озвучки&lt;/li&gt;&#xA;&lt;li&gt;Честный показ не только плюсов, но и смешных моментов&lt;/li&gt;&#xA;&lt;li&gt;Короткий формат — никто не успел заскучать&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Что будем дорабатывать:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Добавим субтитры (несколько человек смотрели без звука)&lt;/li&gt;&#xA;&lt;li&gt;Сделаем заставку с логотипом POLI-STUDIO&lt;/li&gt;&#xA;&lt;li&gt;Переснимем пару кадров, где хромает цветокоррекция&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;План на следующую неделю:&lt;/strong&gt; финальный монтаж и публикация первого видео. Если всё пойдёт по плану, через семь дней наш канал официально запустится.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Неделя 2: Сценарий и первые съёмки</title>
+      <link>http://localhost:1313/posts/post2/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post2/</guid>
+      <description>&lt;h2 id=&#34;первый-выезд&#34;&gt;Первый выезд&lt;/h2&gt;&#xA;&lt;p&gt;Начали с обзора кампуса — это логичный старт. Написали сценарий: решили провести виртуальную экскурсию глазами первокурсника.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Как проходили съёмки:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Выбрали три локации: главный корпус, библиотеку и спортивный зал&lt;/li&gt;&#xA;&lt;li&gt;Столкнулись с первой проблемой: в коридорах оказалось темнее, чем ожидалось — пришлось настраивать свет&lt;/li&gt;&#xA;&lt;li&gt;Отсняли около 40 минут материала, в ролик войдёт 4 минуты&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Неожиданность:&lt;/strong&gt; несколько студентов попросились сняться в кадре и рассказать о своих специальностях. Это круто — настоящие эмоции всегда лучше постановочных.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Неделя 1: Идея и команда</title>
+      <link>http://localhost:1313/posts/post1/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post1/</guid>
+      <description>&lt;h2 id=&#34;с-чего-всё-началось&#34;&gt;С чего всё началось&lt;/h2&gt;&#xA;&lt;p&gt;Идея пришла спонтанно: мы поняли, что абитуриенты почти ничего не знают о реальной студенческой жизни. Цифры на сайте приёмной комиссии — это сухо, а соцсети университета показывают только парадную сторону.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Что сделали за первую неделю:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Собрали команду (режиссёр, оператор, сценарист, дизайнер)&lt;/li&gt;&#xA;&lt;li&gt;Определили формат: короткие ролики на 3–5 минут&lt;/li&gt;&#xA;&lt;li&gt;Выбрали название — &lt;strong&gt;POLI-STUDIO&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Создали этот сайт&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Главный вывод:&lt;/strong&gt; абитуриентам интересен честный взгляд. Они хотят видеть аудитории, общежития и слышать живые истории студентов, а не рекламные лозунги.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<section class="hero">
+  <h1 class="hero-title">{{ .Site.Title }}</h1>
+  <p class="hero-description">{{ .Site.Params.description }}</p>
+  {{ with .Site.Params.featured_video }}
+  <div class="video-wrapper">
+    <iframe src="{{ . }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  {{ end }}
+</section>
+
+<!-- Секция с цитатой -->
+<section class="quote-section">
+  <blockquote>
+    «Мы сами были абитуриентами и знаем, как сложно выбрать университет. Наши видео — это честный взгляд изнутри»
+  </blockquote>
+  <cite>— Команда POLI-STUDIO</cite>
+</section>
+
+<section class="about-preview">
+  <h2>О проекте</h2>
+  <p>Мы — команда студентов, которая создаёт короткие видеоролики о жизни университета. Наша цель — показать абитуриентам, что учёба может быть интересной, яркой и перспективной.</p>
+  <a href="/about/" class="btn">Узнать больше</a>
+</section>
+
+<section class="latest-posts">
+  <h2>Последние новости</h2>
+  <div class="posts-grid">
+    {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+    <article class="post-card">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <time>{{ .Date.Format "02.01.2006" }}</time>
+      <p>{{ .Summary }}</p>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
