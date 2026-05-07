@@ -4,23 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Title }} | {{ .Site.Title }}</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}?v={{ now.Unix }}">
 </head>
 <body>
   <nav>
     {{ $current := . }}
     {{ range .Site.Menus.main }}
-      <a href="{{ .URL }}" 
+      <a href="{{ .URL }}"
          class="{{ if eq $current.RelPermalink .URL }}active{{ end }}">
          {{ .Name }}
       </a>
     {{ end }}
   </nav>
-  
+
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  
+
   <footer>
     <p>© 2026 {{ .Site.Title }}. Все права защищены.</p>
   </footer>
