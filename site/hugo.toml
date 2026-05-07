@@ -1,6 +1,6 @@
 # --- Базовые настройки ---
-baseURL = 'http://localhost:1313/'
-languageCode = 'ru-RU'
+baseURL = 'https://xak3r.github.io/project-practice/'
+locale = 'ru-RU'
 title = 'POLI-STUDIO'
 # theme = 'compose'
 
