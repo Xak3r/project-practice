@@ -14,11 +14,13 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# 👇 Добавляем глобальную переменную для Node.js 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: "0.143.0"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,7 +31,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: ${{ env.HUGO_VERSION }}
+          # 👇 Меняем версию на 'latest', чтобы избежать ошибок отсутствия версии
+          hugo-version: 'latest'
           extended: true
 
       - name: Build with Hugo
