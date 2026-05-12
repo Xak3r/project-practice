@@ -35,3 +35,8 @@ title = 'POLI-STUDIO'
   name = "Ресурсы"
   url = "/resources/"
   weight = 5
+
+[[menu.main]]
+  name = "Тест"
+  url = "/quiz/"
+  weight = 6
